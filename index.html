@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Guesser</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="assets/main.js" defer></script>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="head" style="margin-bottom: 20px;">
+            <h3>Guess All The Countries!</h3>  
+            <h6 style="margin-bottom: 2rem; color: red !important;">Your Progress: <span id="progress">0</span>/195 Countries Guessed.</h6>
+            <input type="text" class="form-control search" id="country"  placeholder="e.g. Argentina" onkeydown="search(this)"/>
+            <p class="misMatch" style="color: red !important;"></p>
+        </div>
+        
+        <h6 class="listNations" style="margin-top: 4rem;"></h6>
+    </div>
+</body>
+</html>
