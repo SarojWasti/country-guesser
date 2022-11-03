@@ -8,10 +8,10 @@ body{
     font-family: 'Muli', sans-serif;
 }
 h3,h4,h6{
-    margin-top: 15px;
+    margin-top: 10px;
     font-weight: bold;
     color: #09095B;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
 }
 p{
   font-weight: bold;
@@ -21,4 +21,7 @@ p{
 input{
   border-color: #09095B !important;
   color: black !important;
+}
+.worldsvg{
+  text-align: center;
 }
