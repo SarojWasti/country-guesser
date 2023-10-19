@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 body{
+    overflow-y: hidden;
     background-color: rgba(242,242,242,1);
     font-family: 'Rubik', sans-serif;
 }
