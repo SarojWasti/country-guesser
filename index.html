@@ -11,7 +11,7 @@
     <div class="container">
         <div class="head" style="margin-bottom: 20px;">
             <h3>Guess All The Countries!</h3>  
-            <h6 style="margin-bottom: 2rem; color: red !important;">Your Progress: <span id="progress">0</span>/256 Countries Guessed.</h6>
+            <h6 style="margin-bottom: 2rem; color: red !important;">Your Progress: <span id="progress">0</span>/<span id="allCountries"></span> Countries Guessed.</h6>
             <input type="text" class="form-control search" id="country"  placeholder="e.g. Argentina" onkeydown="search(this)"/>
             <p class="misMatch" style="color: red !important;"></p>
         </div>
@@ -28,7 +28,6 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    mapsvg:geoViewBox="-169.110266 83.600842 190.486279 -58.508473"
-   fill="transparent"
    style="width: 100%; height: 100%;"
    viewBox = "0 0 1000 1000"
    stroke-width="1.2">
